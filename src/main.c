@@ -10,8 +10,8 @@ int main(int argc, char **argv) {
 
     sleep(sleep_seconds);
 
-    char *array = (char *) malloc(-1);
-    array[0] = 'A';
+    *((int*) 0) = 69;
+
 
     return 0;
 }
